@@ -499,7 +499,7 @@ Answer printed to terminal
 
 ## 👥 Team
 
-**P.R.I.S.M.** — *Network for Evaluating Status & Tracking*
+**P.R.I.S.M.** — *Patient Recognition,Interaction and status monitoring*
 
 Built as a healthcare AI monitoring research project.
 
