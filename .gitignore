@@ -1,0 +1,58 @@
+# ============================================================
+# N.E.S.T. — .gitignore
+# ============================================================
+
+# Virtual environment (the nest/ folder)
+nest/
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Video files and images (input & output — too large for git)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jpg
+*.png
+*.jpeg
+
+# JSON output logs produced at runtime
+*_action_log.json
+
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# ── RAG pipeline artifacts ────────────────────────────────
+# ChromaDB vector store (auto-rebuilt from JSON on first run)
+nest_chroma_db/
+
+# Generated LLM summaries (auto-generated at runtime)
+*_summary.txt
+
+
+
+# ── Miscellaneous scratch / test files ────────────────────
+snake.py
+
+# Environment variables
+.env
