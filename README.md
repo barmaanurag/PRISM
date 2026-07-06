@@ -116,7 +116,9 @@ The goal is to provide automated, unobtrusive observational intelligence in heal
           │ output_action.mp4 + action_log.json
  ┌────────▼────────────────────────┐
  │     RAG + LLM Query Layer       │
- │  nest_rag.py (ChromaDB)         │
+ │  nest_rag.py (ChromaDB)         |
+ │ (.venv\Scripts\Activate.ps1 +   |
+ |   python gui/main.py )          |
  │  SentenceTransformers (MiniLM)  │
  │  + LFM-2.5-Thinking via Ollama  │
  │  → Natural language Q&A         │
